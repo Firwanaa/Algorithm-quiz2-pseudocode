@@ -21,7 +21,7 @@ Algorithm push(o):
 		S[t] <- o
 ```
 
-###### Using the stack, describe an algorithm winch reads a word and then writes it backwards.
+###### Using the stack, describe an algorithm which reads a word and then writes it backwards.
 
 ```
 S = new Stack()
@@ -41,7 +41,7 @@ if (S.size >= 2):
 	j = S.top()
 	S.push(i)
 
- Time complexity: O(1)
+ // Time complexity: O(1)
 ```
 
 ### Queue
