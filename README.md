@@ -194,6 +194,7 @@ Algorithm printExpression(v):
 ###### Let T be a tree with n nodes. Define the lowest common ancestor (LCA) between two nodes v and w as the lowest node in T that has both v and w as descendents. Given two nodes v and w, describe an efficient algorithm for finding the LCA of v and w. What is the running time of your method?
 ```
 Algorithm LCA(T,W,V):
+    lca = new Node()
 	sv = new Stack()
 	sw = new Stack()
 	temp1 = new Node()
@@ -212,7 +213,6 @@ Algorithm LCA(T,W,V):
 ###### Let T be a tree with n nodes, and for any node v in T, let dv denote the depth of v in T. Describe an algorithm for finding the distance between v and w.
 ```
 Algorithm distance(T,W,V):
-	lca = new Node()
 	sv = new Stack()
 	sw = new Stack()
 	temp1 = new Node()
