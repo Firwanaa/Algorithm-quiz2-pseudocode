@@ -99,7 +99,7 @@ Dequeue twice:
 
 `Size = N - 1 = 4`
 
-Enqueue A, B, C:
+Enqueue D, E, F:
 
 | 0 | 1  | 2 | 3 | 4 |
 |---|---|---|---|---|
