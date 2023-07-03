@@ -197,14 +197,14 @@ Algorithm LCA(T,W,V):
     lca = new Node()
 	sv = new Stack()
 	sw = new Stack()
-	temp1 = new Node()
-	temp2 = new Node()
+	Node temp1 = v
+	Node temp2 = w
 	while(temp1 != null):
 		sv.push(temp1)
-		temp1 = T.parent(v)
+		temp1 = T.parent(temp1)
 	while(temp2 != null):
 		sv.push(temp2)
-		temp2 = T.parent(w)
+		temp2 = T.parent(temp2)
 	while(!sv.isEmpty && sv.peak() == sw.peak()):
 		lca = sv.pop()
 		sw.pop()
