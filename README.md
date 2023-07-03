@@ -201,10 +201,10 @@ Algorithm LCA(T,W,V):
 	temp2 = new Node()
 	while(temp1 != null):
 		sv.push(temp1)
-		temp1 = T.parent(temp1)
+		temp1 = T.parent(v)
 	while(temp2 != null):
 		sv.push(temp2)
-		temp2 = T.parent(temp2)
+		temp2 = T.parent(w)
 	while(!sv.isEmpty && sv.peak() == sw.peak()):
 		lca = sv.pop()
 		sw.pop()
